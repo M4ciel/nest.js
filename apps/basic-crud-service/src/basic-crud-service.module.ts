@@ -1,10 +1,9 @@
 import { Module } from '@nestjs/common';
-import { BasicCrudServiceController } from './basic-crud-service.controller';
-import { BasicCrudServiceService } from './basic-crud-service.service';
+import { UserModule } from './modules/user/user.module';
 
 @Module({
-  imports: [],
-  controllers: [BasicCrudServiceController],
-  providers: [BasicCrudServiceService],
+	imports: [UserModule],
+	controllers: [],
+	providers: [],
 })
 export class BasicCrudServiceModule {}
