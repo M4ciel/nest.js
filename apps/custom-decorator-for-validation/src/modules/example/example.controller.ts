@@ -6,7 +6,7 @@ export class ExampleController {
 	@Post()
 	create(
 		@Body()
-		@Validate((data) => data && data.name && data.name.length > 3)
+		@Validate((value) => value.name !== '' && value.name.length > 3)
 		data: any,
 	) {
 		return {
