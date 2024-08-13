@@ -18,6 +18,15 @@
 			"compilerOptions": {
 				"tsConfigPath": "apps/basic-crud-service/tsconfig.app.json"
 			}
+		},
+		"custom-decorator-for-validation": {
+			"type": "application",
+			"root": "apps/custom-decorator-for-validation",
+			"entryFile": "main",
+			"sourceRoot": "apps/custom-decorator-for-validation/src",
+			"compilerOptions": {
+				"tsConfigPath": "apps/custom-decorator-for-validation/tsconfig.app.json"
+			}
 		}
 	}
 }
