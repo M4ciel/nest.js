@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
-import { BasicCrudServiceModule } from './../src/basic_crud_service.module';
+import { BasicCrudServiceModule } from './../src/basic-crud-service.module';
 
 describe('BasicCrudServiceController (e2e)', () => {
   let app: INestApplication;

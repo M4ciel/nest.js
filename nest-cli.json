@@ -27,6 +27,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/basic_crud_service/tsconfig.app.json"
       }
+    },
+    "basic-crud-service": {
+      "type": "application",
+      "root": "apps/basic-crud-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/basic-crud-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/basic-crud-service/tsconfig.app.json"
+      }
     }
   }
 }
