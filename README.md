@@ -10,7 +10,7 @@ This repository is part of my ongoing TIL initiative, where I document and share
 
 Here’s a rundown of the features I’ve added so far. These are designed to be easily pluggable into any NestJS project, helping you enhance your application’s capabilities.
 
-1. **Basic CRUD Service:** A generic service that provides Create, Read, Update, and Delete operations for a given entity, making it easy to manage database interactions.
+1. [**🔗 Basic CRUD Service:**](https://github.com/M4ciel/nest.js/tree/master/apps/basic_crud_service/README.md) A generic service that provides Create, Read, Update, and Delete operations for a given entity, making it easy to manage database interactions. 
 
 ## 🛠️ Future Additions
 
